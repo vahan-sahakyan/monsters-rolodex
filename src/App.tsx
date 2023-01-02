@@ -1,12 +1,12 @@
 import React, { ChangeEvent, Component, useEffect, useState } from 'react';
-import { CardList } from './components/card-list/card-list.component.jsx';
+import { CardList } from './components/card-list/card-list.component';
 import { getData } from './utils/data.utils';
 import SearchBox from './components/search-box/search-box.component';
 // import ReactDOM from "react-dom";
 // import logo from "./logo.svg";
 import './App.css';
 
-type Monster = {
+export type Monster = {
   id: string;
   name: string;
   email: string;
